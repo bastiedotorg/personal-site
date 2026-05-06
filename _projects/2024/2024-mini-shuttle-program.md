@@ -34,7 +34,6 @@ description: >-
   development.
 
 cover: /assets/images/projects/shuttle_full.png
-cover: /assets/images/projects/shuttle_full.png
 
 tags:
 - Aerospace Education

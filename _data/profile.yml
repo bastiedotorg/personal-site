@@ -3,8 +3,9 @@ secondary_name: "Dr.-Ing."
 navbar_name: "bastie.space"
 
 positions:
-  - name: Fachberater
-  - name: Deutsches Zentrum für Luft- und Raumfahrt (DLR)
+  - name: "Dr.-Ing."
+  - name: "Institute of Flight Systems"
+  - name: German Aerospace Center (DLR)
     logo: /assets/images/badges/dlr.png
 
 email: "bastian.luettig@gmail.com"
