@@ -1,61 +1,92 @@
-primary_name: "Your Name"
-secondary_name: ""
-navbar_name: "Your Name"
+primary_name: "Bastian Lüttig"
+secondary_name: "Dr.-Ing."
+navbar_name: "bastie.space"
 
 positions:
-- name: Title or Position
-- name: Affiliation Name
-  logo: /assets/images/badges/MIT_Social_circle.png  # Logo is optional
+  - name: Fachberater
+  - name: Deutsches Zentrum für Luft- und Raumfahrt (DLR)
+    logo: /assets/images/badges/dlr.png
 
+email: "bastian.luettig@gmail.com"
 
-email: "your@email.com"
-# cv_link: link-to-your-cv-file
-gscholar: xFmQpf4AAAAJ  # This is an example, replace it with your own Google Scholar ID
-github: your_github_id
-twitter: your_twitter_id  # Do not include the '@' symbol
-# wechat_qrcode: /assets/images/etc/wechat.jpg
-# wechat_prompt: >-
-#   Please tell me your <strong>name</strong> and <strong>affiliation</strong> (current or past) when adding my wechat. Thanks!
-# linkedin: your-linked-in-id
-# orcid: 0000-0000-0000-0000
+gscholar: "hf2HGdEAAAAJ"
+github: bastiedotorg
+linkedin: bastian-luettig
+orcid: 0000-0002-9358-1611
+researchgate: Bastian-Luettig
+xing: Bastian_Luettig
 
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    A <a href="https://en.wikipedia.org/wiki/Bicolor_cat" target="_blank">bicolor cat</a> is a cat with white fur combined with fur of some other colour, for example solid black, tabby, or colourpointed.
-  </p>
-  <p>
-    There are various patterns of a bicolour cat. These range from the Van-patterned (colour on the crown of the head 
-    and the tail only) to a solid colour with a throat locket or medallion. Bicolour coats are found in many cat breeds, 
-    as well as being common in domestic longhair and domestic shorthair cats.
+    I am a research engineer and technical advisor working on avionics architectures,
+    model-based systems engineering, integrated modular avionics, and deterministic
+    communication systems for safety-critical aerospace applications.
   </p>
 
-portrait_url: /assets/images/photos/portrait.jpg
-portrait_caption: >-
-  Photo by Manja Vitolic on Unsplash (this caption is optional, comment it out to disable).
+  <p>
+    My work focuses on modular avionics platforms, TSN/SDN-based networking,
+    model-based configuration processes, certification aspects of distributed systems,
+    and the integration of engineering workflows across heterogeneous environments.
+  </p>
+
+  <p>
+    I am currently working at the
+    <a href="https://www.dlr.de/ft/" target="_blank">DLR Institute of Flight Systems</a>
+    in Braunschweig, Germany.
+  </p>
+
+portrait_url: /assets/images/photos/bastian_luettig.jpg
 
 education:
-- name: Massachusetts Institute of Technology
-  logo: /assets/images/badges/MIT_Social_circle.png
-  position: >- 
-    Department of Electrical Engineering and Computer Science <br/>
-    Ph.D. Student
-  date: Sep. 2024 - present
-- name: Peking University
-  logo: /assets/images/badges/PKU_red.png
-  position: B.S. in Computer Science
-  date: Sep. 2019 - Jul. 2021
+  - name: University of Stuttgart
+    logo: /assets/images/badges/unistuttgart.png
+    position: >-
+      Institute of Aircraft Systems <br/>
+      Dr.-Ing.
+    date: completed 2026
 
-# experience:
-# - name: Peking University
-#   logo: /assets/images/badges/PKU_red.png
-#   position: Research Intern
-#   date: Sep. 2019 - Jul. 2021
+  - name: University of Stuttgart
+    logo: /assets/images/badges/unistuttgart.png
+    position: >-
+      Aerospace Engineering
+    date: completed 2013
+
+experience:
+  - name: Deutsches Zentrum für Luft- und Raumfahrt (DLR)
+    logo: /assets/images/badges/dlr.png
+    position: Technical Advisor / Fachberater
+    date: Apr. 2026 - present
+
+  - name: University of Stuttgart
+    logo: /assets/images/badges/unistuttgart.png
+    position: Postdoctoral Researcher, Institute of Aircraft Systems
+    date: May 2022 - Mar. 2026
+
+  - name: University of Stuttgart
+    logo: /assets/images/badges/unistuttgart.png
+    position: Research Associate, Institute of Aircraft Systems
+    date: Jun. 2016 - Apr. 2022
+
+  - name: BERNS Engineers GmbH
+    logo: /assets/images/badges/berns.png
+    position: Authorized Officer / Prokurist
+    date: Jul. 2015 - May 2016
+
+  - name: BERNS Engineers GmbH
+    logo: /assets/images/badges/berns.png
+    position: Safety Engineer
+    date: Sep. 2013 - Jul. 2015
 
 awards:
-- name: Award Name 2
-  date: 2024
-- name: Award Name 1 
-  date: 2021
-- name: A quick brown fox jumps over the lazy dog and runs away award
-  date: 2021
+  - name: Best of Track Award, IEEE/AIAA DASC
+    date: 2023
+
+  - name: Multiple Best of Session Awards, IEEE/AIAA DASC
+    date: various years
+
+  - name: Recognition for Service as DASC Track Chair
+    date: 2024
+
+  - name: Recognition for Service as DASC Deputy Awards Chair
+    date: 2025
