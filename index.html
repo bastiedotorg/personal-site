@@ -32,7 +32,18 @@ navbar_title: Home
         {%
         include widgets/publication_card.html
         publications=pubs
+        limit=3
         title='<i class="fas fa-star"></i> Selected Publications'
+        %}
+        {% endif %}
+
+        {% if site.data.display.homepage.show_selected_projects %}
+        {% assign pubs = site.projects | sort: "date" | reverse | where: "featured", true %}
+        {%
+        include widgets/project_card.html
+        projects=pubs
+        limit=3
+        title='<i class="fas fa-star"></i> Selected Projects'
         %}
         {% endif %}
     </div>
